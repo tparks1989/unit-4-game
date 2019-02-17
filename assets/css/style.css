@@ -1,0 +1,56 @@
+body{
+	background-color: aqua;
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, span{
+	font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+h1{
+	font-size: 60px;
+
+}
+div.header, div.crystals{
+	background-color: #e0e0eb;
+}
+div.header, div.rules{
+	width: 70%;
+}
+.theanswer, .winsAndLosses{
+	float: left;
+	width: 30%;
+    height: 60px;
+    color: black;
+}
+.pointTotal{
+	width: 20%;
+	height: 60px;
+}
+.crystals{
+	clear: both;
+}
+.crystalPic{
+	height: 60px;
+	margin: 10px;
+}
+#diamond{
+	color: #3092c7;
+}
+#emerald{
+	color: #00aa59;
+}
+#ruby{
+	color: #ec4b5f;
+}
+#citrine{
+	color: #ffc225;
+}

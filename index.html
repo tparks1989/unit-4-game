@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal COllector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+</head>
+
+<body>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    <div class="header">
+        <h1>Crystal Collector</h1>
+    </div>
+
+    <div class="rules">
+        <ol>
+
+        <p>You will be given a random number at the start of the game.</p>
+        <br>
+        <p>There are four crystals below. By clicking on a crytal you will add a specific amount of points to your total score.</p>
+        <br>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+        <br>
+        <p>The value of each dcrystal is hidden from you until you click on it.</p>
+        <br>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        <br>
+
+        </ol>
+    </div>
+
+    <div class="theAnswer">
+        <span id="randomNumber"></span>
+
+    </div>
+
+    <div class="winsAndLosses">
+        <h2>Wins:
+                <span id= "numberOfWins"></span>
+                <br>
+                Losses:
+                <span id= "numberOfLosses"></span>
+        </h2>
+    </div>
+
+    <div class="crystals">
+        <img src="assets/images/Diamond.png" class=crystalPic id="one" alt="Diamond">
+        <img src="assets/images/Emerald.png" class=crystalPic id="two" alt="Emerald">
+        <img src="assets/images/Ruby.png" class=crystalPic id="three" alt="Ruby">
+        <img src="assets/images/citrine.png" class="crystalPic" id="four" alt="Citrine">
+    </div>
+
+    <div class="pointTotal">
+        <h2>Your total score is:
+            <span id="usersPoints"></span>
+        </h2>
+    </div>
+
+    
+</body>
+</html>
